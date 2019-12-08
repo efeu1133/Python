@@ -2,10 +2,11 @@ u = ['amueller@gmx.de', 'carla2@hotmail.org', 'nicole.weber@gmx.de']
 
 x = ['from: mssleiter@burg-kl.de']
 
-y = ['to: ']
+y = ['subject: Kursarbeiten']
 
-for u in range (len(u)):
+for i in range (0,3):
     print(x[0])
     if u==u:
-        u = u[1]
-        print(u)
+        i = u[0]
+        print('to: ' + u[0])
+        print(y[0])
